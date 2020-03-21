@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CHURRASCO CALCULATOR</title>
+</head>
+
+<body>
+    <header class="header container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg fixed-top shadow">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">CHURRASCO CALCULATOR</a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+              </div>
+            </div>
+          </nav>
+
+            <div class="row">
+              <div class="col-md-1"></div>
+              <h1 class="col-md-7">
+                Cansado de errar na conta na hora do churrasco?<br>
+                A gente ajuda você a fazer o cálculo correto!<br>
+                <img src="img/bar.png">
+              </h1>
+            </div>
+    </header>
+
+    <main>
+        <div id="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <form>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Quantidade de Pessoas</div>
+                            </div>
+                            <input min="0" style="min-width: 50px;" type="number" class="form-control" id="pessoas"
+                                placeholder="0">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Duração em horas</div>
+                            </div>
+                            <input min="0" style="min-width: 50px;" type="number" class="form-control" id="horas"
+                                placeholder="0">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="calcula">Calcular</button>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-6 " id="results">
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <!--  JavaScript -->
+    <script src="script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
